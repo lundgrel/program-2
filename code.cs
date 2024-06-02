@@ -19,5 +19,11 @@ namespace Program
         }
         
         public const string Constant = "bbbb";
+        
+        
+        public void BigFeatureMethod()
+        {
+            // asdf asdf asdf asdf
+        }
     }
 }
