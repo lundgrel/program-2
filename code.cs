@@ -17,5 +17,8 @@ namespace Program
                 return (double)LostCallCount/(double)CallCount;
             }
         }
+        
+        
+        public const string Constant = "aaaaa"; 
     }
 }
