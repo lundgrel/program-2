@@ -8,5 +8,14 @@ namespace Program
 {
     public class Code 
     {
+        public int CallCount;
+        public int LostCallCount;
+        
+        
+        public double RatioLostCalls {
+            get {
+                return (double)LostCallCount/(double)CallCount;
+            }
+        }
     }
 }
